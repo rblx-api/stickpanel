@@ -1,0 +1,5 @@
+Flask
+discord.py
+PyGithub
+requests
+gunicorn
