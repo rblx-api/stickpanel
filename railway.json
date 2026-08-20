@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "gunicorn web_panel:app",
+    "healthcheckPath": "/"
+  }
+}
